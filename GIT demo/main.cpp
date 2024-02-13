@@ -1,6 +1,10 @@
 ﻿#include <iostream>
 
+#include "NewClass.h"
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    NewClass a;
+    NewClass b("qwertyu");
+    return 0;
 }
