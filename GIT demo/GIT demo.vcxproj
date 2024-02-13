@@ -128,17 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="NewLib.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="NewLib.h" />
-=======
     <ClCompile Include="NewClass.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="NewClass.h" />
->>>>>>> another-task
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
