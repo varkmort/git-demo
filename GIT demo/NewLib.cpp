@@ -3,6 +3,7 @@
 int F00()
 {
     static int i{1};
+    i++;
     return i++;
 }
 
