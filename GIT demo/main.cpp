@@ -3,6 +3,6 @@
 int main()
 {
 	int var{5};
-	var+=1;
+	var=var +1;
     return 0;
 }
