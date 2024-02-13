@@ -2,6 +2,7 @@
 
 int main()
 {
-	int var{};
+	int var{5};
+	var++;
     return 0;
 }
