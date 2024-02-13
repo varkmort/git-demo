@@ -1,5 +1,7 @@
 ﻿#include <iostream>
 
+
+//тестовый коммент
 int main()
 {
 	int var{5};
