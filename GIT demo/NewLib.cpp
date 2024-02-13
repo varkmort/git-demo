@@ -2,11 +2,11 @@
 
 int F00()
 {
-    static int i{};
+    static int i{1};
     return i++;
 }
 
 bool F01(int a)
 {
-    return (a%2);
+    return !(a%2);
 }
