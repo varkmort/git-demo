@@ -1,6 +1,12 @@
 ﻿#include <iostream>
 
+#include "NewLib.h"
+
 int main()
 {
-    std::cout << "Hello World!\n";
+	for (size_t i = 0; i < 10; i++)
+	{
+		std::cout << F00() << ' ' << F01(i) << '\n';
+	}
+	return 0;
 }
